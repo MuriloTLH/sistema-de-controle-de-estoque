@@ -1,0 +1,23 @@
+[
+    {
+        "codigo": 1,
+        "nome": "Mouse Gamer",
+        "quantidade": 12,
+        "estoque_minimo": 5,
+        "preco": 89.9
+    },
+    {
+        "codigo": 3,
+        "nome": "Monitor",
+        "quantidade": 2,
+        "estoque_minimo": 5,
+        "preco": 899.9
+    },
+    {
+        "codigo": 2,
+        "nome": "Teclado",
+        "quantidade": 8,
+        "estoque_minimo": 5,
+        "preco": 100.0
+    }
+]

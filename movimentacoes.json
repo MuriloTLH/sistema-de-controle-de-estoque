@@ -1,0 +1,51 @@
+[
+    {
+        "codigo": 1,
+        "produto": "Mouse",
+        "tipo": "Entrada",
+        "quantidade": 10,
+        "data": "16/11/2026 19:30"
+    },
+    {
+        "codigo": 1,
+        "produto": "Mouse",
+        "tipo": "Entrada",
+        "quantidade": 20,
+        "data": "16/11/2026 19:30"
+    },
+    {
+        "codigo": 2,
+        "produto": "Teclado",
+        "tipo": "Saída",
+        "quantidade": 4,
+        "data": "16/11/2026 19:31"
+    },
+    {
+        "codigo": 1,
+        "produto": "Mouse Gamer",
+        "tipo": "Entrada",
+        "quantidade": 10,
+        "data": "16/11/2026 19:48"
+    },
+    {
+        "codigo": 1,
+        "produto": "Mouse Gamer",
+        "tipo": "Entrada",
+        "quantidade": 50,
+        "data": "16/11/2026 19:48"
+    },
+    {
+        "codigo": 1,
+        "produto": "Mouse Gamer",
+        "tipo": "Saída",
+        "quantidade": 100,
+        "data": "16/11/2026 19:48"
+    },
+    {
+        "codigo": 1,
+        "produto": "Mouse Gamer",
+        "tipo": "Entrada",
+        "quantidade": 2,
+        "data": "16/11/2026 19:48"
+    }
+]
