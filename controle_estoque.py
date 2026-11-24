@@ -235,7 +235,7 @@ def mostrar_movimentacoes():
         ))
 
 
-# Janela principal
+# Janela
 tela = tk.Tk()
 tela.title("Sistema de Controle de Estoque")
 tela.geometry("850x750")
@@ -277,12 +277,12 @@ caixa = tk.Entry(tela, font=("Arial", 12))
 caixa.place(x=350, y=90, width=150)
 
 
-# Imagens dos botões superiores
+# Imagens dos botões
 for x in [40, 250, 460, 660]:
     canvas.create_image(x, 115, image=imagem, anchor="nw")
 
 
-# Botões superiores
+# Botões
 b1 = tk.Button(tela, text="Pesquisar", command=lambda: mostrar("pesquisa"), **estilo)
 canvas.create_window(40 + imagem.width()/2, 115 + imagem.height()/2, window=b1)
 
@@ -318,7 +318,7 @@ preco = tk.Entry(tela)
 preco.place(x=670, y=200, width=120)
 
 
-# Imagens dos botões de cadastro
+# Imagens dos botões
 for x in [200, 350, 500]:
     canvas.create_image(x, 245, image=imagem, anchor="nw")
 
@@ -334,7 +334,7 @@ b7 = tk.Button(tela, text="Excluir", command=excluir, **estilo)
 canvas.create_window(500 + imagem.width()/2, 245 + imagem.height()/2, window=b7)
 
 
-# Tabela de produtos
+# Tabela
 titulo_tabela = tk.Label(tela, text="Produtos cadastrados",
                          font=("Arial", 12, "bold"), bg="gray")
 canvas.create_window(425, 325, window=titulo_tabela)
@@ -367,7 +367,7 @@ quantidade_mov = tk.Entry(tela)
 quantidade_mov.place(x=365, y=660, width=120)
 
 
-# Imagens dos botões de entrada e saída
+# Imagens dos botões
 canvas.create_image(200, 685, image=imagem, anchor="nw")
 canvas.create_image(500, 685, image=imagem, anchor="nw")
 
